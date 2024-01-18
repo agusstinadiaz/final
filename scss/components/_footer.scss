@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+@import "../base/variables";
+@import "../base/maps";
+@import "../base/extends";
+
+
+footer {
+    background: rgb(23, 78, 48);
+    padding: 80px 13% 70px;
+
+    .foot {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, auto));
+        gap: 3.5rem;
+
+        .footer-content {
+            h4 {
+                margin-bottom: 1.5rem;
+                font-size: 20px;
+                color: $coloprincipal-footer;
+            }
+
+            li {
+                margin-bottom: 16px;
+
+                a {
+                    display: block;
+                    color: $colorsecundario-footer;
+                    font-size: 15px;
+                    font-weight: 400;
+                    transition: all .40s ease;
+
+                    &:hover {
+                        transform: translateY(-3px) translateX(-5px);
+                        color: $coloprincipal-footer;
+                    }
+                }
+            }
+
+            p {
+                color: $colorsecundario-footer;
+                font-size: 16px;
+                line-height: 30px;
+                margin: 20px 0;
+            }
+        }
+
+        .icons {
+
+            h4 {
+                margin-bottom: 1.5rem;
+                font-size: 20px;
+                color: $coloprincipal-footer;
+            }
+            a {
+                display: inline-block;
+                font-size: 22px;
+                color: $colorsecundario-footer;
+                margin-right: 17px;
+                transition: all .40s ease;
+
+                &:hover {
+                    transform: translateY(-3px) translateX(-5px);
+                    color: $coloprincipal-footer;
+                }
+            }
+        }
+    }
+
+    .wsp { 
+        width: 4rem;
+    }
+    .fondo-wsp {
+        display: inline-block;
+        padding: .4rem;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 1rem;
+        right: 2rem;
+    }
+
+}

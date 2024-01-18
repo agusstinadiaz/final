@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+} 
+
+@import "../base/variables";
+@import "../base/maps";
+@import "../base/extends";
+
+main{
+
+     h2 { text-align: map-get($inicio ,alineacion);
+        margin-top: 40px;
+        text-transform: uppercase;
+        color: #2b2525;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: map-get($inicio ,alineacion);
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        .card {
+            width: 350px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+            margin: 30px;
+
+            img {
+                width: map-get($inicio ,tamanio);
+                height: auto;
+            }
+
+        .card-content {
+            padding: 16px;
+
+            h3{
+                font-size: 28px;
+                margin-bottom: 8px;
+            }
+
+            p{
+                color: #666;
+                font-size: 15px;
+                line-height: 1.3;
+            }
+
+            a{
+                display: inline-block;
+                padding: 8px 16px;
+                background-color: #030303;
+                border-radius: 4px;
+                margin-top: 16px;
+                color: $coloprincipal-footer;
+            }
+        } 
+    }
+}
+
+.francia {
+    text-align: map-get($inicio ,alineacion);
+    background-image: url(../../images/francia-2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $coloprincipal-footer;
+    padding: map-get($inicio ,width);
+
+    .titulo-foto {
+        color: $coloprincipal-footer;
+        font-size: 30px;
+        font-family: 'PT Serif', serif;
+    }
+}
+
+.presentacion {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'PT Serif', serif;
+    color: #2b2525;
+}
+
+.presentacion-2 {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Karla', sans-serif;
+}
+
+.italia {
+    background-image: url(../../images/italia-1.jpeg);
+    @extend %encabezadoPages;
+
+    .titulo-foto {
+        @extend %tituloFoto;
+    }
+}
+.disney {
+    background-image: url(../../images/disney-1.jpeg);
+    @extend %encabezadoPages;
+
+    .titulo-foto {
+        @extend %tituloFoto;
+    }
+}
+.bariloche {
+    background-image: url(../../images/bariloche-1.jpg);
+    @extend %encabezadoPages;
+
+    .titulo-foto {
+        @extend %tituloFoto;
+    }
+}
+.cataratas {
+    background-image: url(../../images/cataratas-1.webp);
+    @extend %encabezadoPages;
+
+    .titulo-foto {
+        @extend %tituloFoto;
+    }
+}
+.cordoba {
+    background-image: url(../../images/cordoba-1.jpg);
+    @extend %encabezadoPages;
+
+    .titulo-foto {
+        @extend %tituloFoto;
+    }
+}
+
+.contact-in {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: $coloprincipal-footer;
+    box-shadow: 0px 0px 10px 0px #666;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    .contact-map {
+        width: map-get($inicio ,tamanio);
+        height: auto;
+        flex: 50%;
+
+        iframe {
+            width: map-get($inicio ,tamanio);
+            height: map-get($inicio ,tamanio);
+        }
+    }
+    .contact-form {
+        width: map-get($inicio ,tamanio);
+        height: auto;
+        flex: 50%;
+        text-align: map-get($inicio ,alineacion);
+        padding: 30px;
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .contact-form-txt {
+            width: map-get($inicio ,tamanio);
+            height: 40px;
+            color: #000;
+            border: 1px solid #bcbcbc;
+            border-radius: 50px;
+            outline: none;
+            margin-bottom: 20px;
+            padding: 15px;
+
+            ::placeholder {
+                color: #aaa;
+
+            }
+        }
+        .contact-form-txtarea {
+            width: map-get($inicio ,tamanio);
+            height: 130px;
+            color: #000;
+            border: 1px solid #bcbcbc;
+            border-radius: 10px;
+            outline: none;
+            margin-bottom: 20px;
+            padding: 15px;
+
+            ::placeholder {
+                color: #aaa;
+                
+            }
+        }
+
+        .contact-form-btn {
+            width: map-get($inicio ,tamanio);
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            background: #134724;
+            color: $coloprincipal-footer;
+            padding: 10px 0;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    }
+}
+.empresa {
+    h3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background: #206136;
+        color: #fff;
+        font-size: 35px;
+        font-family: 'Karla', sans-serif;
+    }
+    h4 {
+        font-family: 'Karla', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#174225;
+        font-weight: bolder;
+    }
+    p {
+        font-family: 'Karla', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+.sucursal {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Karla', sans-serif;
+    color: #2b2525;
+
+}
+
+}
