@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia {
+main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia, main .francia {
   text-align: center;
   background-position: center center;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia {
   padding: 100px;
 }
 
-main .cordoba .titulo-foto, main .cataratas .titulo-foto, main .bariloche .titulo-foto, main .disney .titulo-foto, main .italia .titulo-foto {
+main .cordoba .titulo-foto, main .cataratas .titulo-foto, main .bariloche .titulo-foto, main .disney .titulo-foto, main .italia .titulo-foto, main .francia .titulo-foto {
   font-size: 30px;
   color: #fff;
   font-family: "PT Serif", serif;
@@ -126,7 +126,7 @@ header #check {
   list-style: none;
 }
 
-main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia {
+main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia, main .francia {
   text-align: center;
   background-position: center center;
   background-repeat: no-repeat;
@@ -135,7 +135,7 @@ main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia {
   padding: 100px;
 }
 
-main .cordoba .titulo-foto, main .cataratas .titulo-foto, main .bariloche .titulo-foto, main .disney .titulo-foto, main .italia .titulo-foto {
+main .cordoba .titulo-foto, main .cataratas .titulo-foto, main .bariloche .titulo-foto, main .disney .titulo-foto, main .italia .titulo-foto, main .francia .titulo-foto {
   font-size: 30px;
   color: #fff;
   font-family: "PT Serif", serif;
@@ -186,18 +186,7 @@ main .card-container .card .card-content a {
   color: #fff;
 }
 main .francia {
-  text-align: center;
   background-image: url(../../images/francia-2.webp);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  padding: 100px;
-}
-main .francia .titulo-foto {
-  color: #fff;
-  font-size: 30px;
-  font-family: "PT Serif", serif;
 }
 main .presentacion {
   text-align: center;
@@ -332,7 +321,7 @@ main .sucursal {
   list-style: none;
 }
 
-main .italia, main .disney, main .bariloche, main .cataratas, main .cordoba {
+main .francia, main .italia, main .disney, main .bariloche, main .cataratas, main .cordoba {
   text-align: center;
   background-position: center center;
   background-repeat: no-repeat;
@@ -341,7 +330,7 @@ main .italia, main .disney, main .bariloche, main .cataratas, main .cordoba {
   padding: 100px;
 }
 
-main .italia .titulo-foto, main .disney .titulo-foto, main .bariloche .titulo-foto, main .cataratas .titulo-foto, main .cordoba .titulo-foto {
+main .francia .titulo-foto, main .italia .titulo-foto, main .disney .titulo-foto, main .bariloche .titulo-foto, main .cataratas .titulo-foto, main .cordoba .titulo-foto {
   font-size: 30px;
   color: #fff;
   font-family: "PT Serif", serif;

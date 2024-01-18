@@ -65,18 +65,11 @@ main{
 }
 
 .francia {
-    text-align: map-get($inicio ,alineacion);
     background-image: url(../../images/francia-2.webp);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: $coloprincipal-footer;
-    padding: map-get($inicio ,width);
-
+    @extend %encabezadoPages;
+    
     .titulo-foto {
-        color: $coloprincipal-footer;
-        font-size: 30px;
-        font-family: 'PT Serif', serif;
+        @extend %tituloFoto;
     }
 }
 
