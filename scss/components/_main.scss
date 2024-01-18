@@ -86,44 +86,78 @@ main{
     font-size: 18px;
     font-family: 'Karla', sans-serif;
 }
-
 .italia {
-    background-image: url(../../images/italia-1.jpeg);
     @extend %encabezadoPages;
 
+    img {
+        @extend %imagen;
+    }
+
     .titulo-foto {
+        @extend %tituloFoto;
+    }
+
+    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }
 .disney {
-    background-image: url(../../images/disney-1.jpeg);
     @extend %encabezadoPages;
 
+    img {
+        @extend %imagen;
+    }
+
     .titulo-foto {
+        @extend %tituloFoto;
+    }
+
+    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }
 .bariloche {
-    background-image: url(../../images/bariloche-1.jpg);
     @extend %encabezadoPages;
 
+    img {
+        @extend %imagen;
+    }
+
     .titulo-foto {
+        @extend %tituloFoto;
+    }
+
+    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }
 .cataratas {
-    background-image: url(../../images/cataratas-1.webp);
     @extend %encabezadoPages;
+
+    img {
+        @extend %imagen;
+    }
 
     .titulo-foto {
         @extend %tituloFoto;
     }
+
+    .subtitulo-foto {
+        @extend %tituloFoto;
+    }
 }
 .cordoba {
-    background-image: url(../../images/cordoba-1.jpg);
     @extend %encabezadoPages;
 
+    img {
+        @extend %imagen;
+    }
+
     .titulo-foto {
+        @extend %tituloFoto;
+    }
+
+    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }
