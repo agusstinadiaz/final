@@ -65,8 +65,6 @@ main{
 }
 
 .francia {
-    background-image: url(../../images/francia-2.webp);
-    @extend %encabezadoPages;
     
     .titulo-foto {
         @extend %tituloFoto;
@@ -87,77 +85,30 @@ main{
     font-family: 'Karla', sans-serif;
 }
 .italia {
-    @extend %encabezadoPages;
-
-    img {
-        @extend %imagen;
-    }
 
     .titulo-foto {
         @extend %tituloFoto;
     }
 
-    .subtitulo-foto {
-        @extend %tituloFoto;
-    }
 }
 .disney {
-    @extend %encabezadoPages;
-
-    img {
-        @extend %imagen;
-    }
-
     .titulo-foto {
-        @extend %tituloFoto;
-    }
-
-    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }
 .bariloche {
-    @extend %encabezadoPages;
-
-    img {
-        @extend %imagen;
-    }
 
     .titulo-foto {
-        @extend %tituloFoto;
-    }
-
-    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }
 .cataratas {
-    @extend %encabezadoPages;
-
-    img {
-        @extend %imagen;
-    }
-
     .titulo-foto {
-        @extend %tituloFoto;
-    }
-
-    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }
 .cordoba {
-    @extend %encabezadoPages;
-
-    img {
-        @extend %imagen;
-    }
-
     .titulo-foto {
-        @extend %tituloFoto;
-    }
-
-    .subtitulo-foto {
         @extend %tituloFoto;
     }
 }

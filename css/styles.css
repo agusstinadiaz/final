@@ -7,26 +7,12 @@
   list-style: none;
 }
 
-main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia, main .francia {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-main .cordoba .subtitulo-foto, main .cordoba .titulo-foto, main .cataratas .subtitulo-foto, main .cataratas .titulo-foto, main .bariloche .subtitulo-foto, main .bariloche .titulo-foto, main .disney .subtitulo-foto, main .disney .titulo-foto, main .italia .subtitulo-foto, main .italia .titulo-foto, main .francia .titulo-foto {
+main .cordoba .titulo-foto, main .cataratas .titulo-foto, main .bariloche .titulo-foto, main .disney .titulo-foto, main .italia .titulo-foto, main .francia .titulo-foto {
   font-size: 30px;
-  color: #fff;
-  position: absolute;
+  color: #2b2525;
+  text-align: center;
   font-family: "PT Serif", serif;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-main .cordoba img, main .cataratas img, main .bariloche img, main .disney img, main .italia img {
-  width: 100%;
-  height: 100%;
+  padding-bottom: 10px;
 }
 
 header {
@@ -133,26 +119,12 @@ header #check {
   list-style: none;
 }
 
-main .cordoba, main .cataratas, main .bariloche, main .disney, main .italia, main .francia {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-main .cordoba .subtitulo-foto, main .cordoba .titulo-foto, main .cataratas .subtitulo-foto, main .cataratas .titulo-foto, main .bariloche .subtitulo-foto, main .bariloche .titulo-foto, main .disney .subtitulo-foto, main .disney .titulo-foto, main .italia .subtitulo-foto, main .italia .titulo-foto, main .francia .titulo-foto {
+main .cordoba .titulo-foto, main .cataratas .titulo-foto, main .bariloche .titulo-foto, main .disney .titulo-foto, main .italia .titulo-foto, main .francia .titulo-foto {
   font-size: 30px;
-  color: #fff;
-  position: absolute;
+  color: #2b2525;
+  text-align: center;
   font-family: "PT Serif", serif;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-main .cordoba img, main .cataratas img, main .bariloche img, main .disney img, main .italia img {
-  width: 100%;
-  height: 100%;
+  padding-bottom: 10px;
 }
 
 main h2 {
@@ -198,9 +170,6 @@ main .card-container .card .card-content a {
   border-radius: 4px;
   margin-top: 16px;
   color: #fff;
-}
-main .francia {
-  background-image: url(../../images/francia-2.webp);
 }
 main .presentacion {
   text-align: center;
@@ -320,26 +289,12 @@ main .sucursal {
   list-style: none;
 }
 
-main .francia, main .italia, main .disney, main .bariloche, main .cataratas, main .cordoba {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-main .francia .titulo-foto, main .italia .titulo-foto, main .italia .subtitulo-foto, main .disney .titulo-foto, main .disney .subtitulo-foto, main .bariloche .titulo-foto, main .bariloche .subtitulo-foto, main .cataratas .titulo-foto, main .cataratas .subtitulo-foto, main .cordoba .titulo-foto, main .cordoba .subtitulo-foto {
+main .francia .titulo-foto, main .italia .titulo-foto, main .disney .titulo-foto, main .bariloche .titulo-foto, main .cataratas .titulo-foto, main .cordoba .titulo-foto {
   font-size: 30px;
-  color: #fff;
-  position: absolute;
+  color: #2b2525;
+  text-align: center;
   font-family: "PT Serif", serif;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-main .italia img, main .disney img, main .bariloche img, main .cataratas img, main .cordoba img {
-  width: 100%;
-  height: 100%;
+  padding-bottom: 10px;
 }
 
 footer {
